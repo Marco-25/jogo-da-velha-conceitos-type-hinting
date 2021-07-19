@@ -10,11 +10,15 @@
     - ativar ambiente virtual
         - source game/bin/active
 
-    - instale a biblioteca mypy
+    - instale a biblioteca mypy e flake8
         - pip install mypy
+        - pip install flake8
 
     - checar as tipagens
         - mypy game.py
+    
+    - checar padrão pep8
+        - flake game.py
     
     - rodar game
         - python game.py
